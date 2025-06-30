@@ -4,11 +4,14 @@ Turn Cloudflare Worker Snippets into Local Folder
 # Configuration
 1. Get Cloudflare Account ID
 (Found on Your Cloudflare URL or Account -> Tripe Dots -> Copy Account ID)
-4. Get Cloudflare Worker Name
+2. Get Cloudflare Worker Name
 (Exact name of worker)
-5. Get Cloudflare API Token
+3. Get Cloudflare API Token
 (Manage Accounts -> Account Api Tokens -> Create Custom Token -> Permissions: Worker Scripts - Read)
-6. Insert on main.py's CONFIGURATION
+4. Insert on main.py's CONFIGURATION
+
+# Run
+python main.py
 
 # Output
 Folder: output-script-ddmmyyyy-HM
