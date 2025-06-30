@@ -4,9 +4,9 @@ from datetime import datetime
 import requests
 
 # ==== CONFIGURATION ====
-account_id = "d9c686c9342d2844aaa641116f7737e0"
-script_name = "as-lend-v1"
-bearer_token = "8yE27FY-qUnOWVjQkSoI6SKD8OGnvneHQD0S6u_N"
+account_id = "your_account_id"
+script_name = "your_script_name"
+bearer_token = "your_bearer_token"
 
 url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/workers/scripts/{script_name}/content/v2"
 headers = {
