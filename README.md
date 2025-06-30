@@ -18,3 +18,8 @@ Folder: output-script-ddmmyyyy-HM
 
 # Cloudflare API
 https://developers.cloudflare.com/api/resources/workers/subresources/scripts/subresources/content/
+
+# My Story on Making This Exportation
+I am using Cloudflare Worker's Quick Editor without Wrangler to make API and Full Stack Apps. 
+However, when I want to migrate to another workers, it does not work by Downloading the script. 
+Thus, I made a Python Script to Download from it directly, and drag folders to another workers.
